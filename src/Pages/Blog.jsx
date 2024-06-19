@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import React, { useEffect, useState } from "react";
 import { FaStar } from "react-icons/fa";
 import HeroInfo from "../components/HeroInfo";
+import ddd from "../assets/ddd.png";
 
 function Blog() {
   const [products, setProducts] = useState([]);
@@ -116,11 +117,7 @@ function Blog() {
             </div>
           </div>
           <div className="lg:w-1/2 sm:w-1/3 rounded-lg overflow-hidden mt-6 sm:mt-0">
-            <img
-              className="object-cover object-center "
-              src="/public/ddd.png"
-              alt=""
-            />
+            <img className="object-cover object-center " src={ddd} alt="" />
           </div>
         </div>
       </section>
