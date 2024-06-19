@@ -5,6 +5,10 @@ import React, { useEffect, useState } from "react";
 import { FaStar } from "react-icons/fa";
 import HeroInfo from "../components/HeroInfo";
 import ddd from "../assets/ddd.png";
+import Two from "../assets/two.png";
+import Cloud from "../assets/1_1.png";
+import Avar from "../assets/Avatar.svg";
+import Erre from "../assets/10_2.png";
 
 function Blog() {
   const [products, setProducts] = useState([]);
@@ -54,11 +58,7 @@ function Blog() {
                     <div className="flex-grow p-6">
                       <div className="flex items-center justify-between mb-3">
                         <div className="h-6 gap-3 flex-shrink-0 flex items-center text-center leading-none">
-                          <img
-                            src="/public/Ellipse 14.jpg"
-                            alt="Avatar"
-                            className="h-full"
-                          />
+                          <img src={Two} alt="Avatar" className="h-full" />
                           <h1 className=" text-gray-900">{item.title}</h1>
                         </div>
                       </div>
@@ -79,7 +79,7 @@ function Blog() {
                   </div>
                   <img
                     className="flex-shrink-0 rounded-lg  w-48 my-3 hidden  sm:flex h-48 object-cover object-center sm:mb-0 mb-4"
-                    src="/public/1_1.png"
+                    src={Cloud}
                     alt=""
                   />
                 </div>
@@ -133,11 +133,7 @@ function Blog() {
               <div className="border border-gray-200 p-6 hover:bg-gray-100  rounded-lg">
                 <div className="flex items-center sm:justify-between gap-8">
                   <span className="flex  items-center gap-5">
-                    <img
-                      className="w-12 sm:w-16"
-                      src="/public/Avatar.svg"
-                      alt=""
-                    />
+                    <img className="w-12 sm:w-16" src={Avar} alt="" />
                     <span>
                       <h2 className="text-gray-900 text-[15px] sm:text-lg  title-font font-medium">
                         CRM Software
@@ -161,11 +157,7 @@ function Blog() {
               <div className="border border-gray-200 p-6 hover:bg-gray-100  rounded-lg">
                 <div className="flex items-center sm:justify-between gap-8">
                   <span className="flex  items-center gap-5">
-                    <img
-                      className="w-12 sm:w-16"
-                      src="/public/Avatar.svg"
-                      alt=""
-                    />
+                    <img className="w-12 sm:w-16" src={Avar} alt="" />
                     <span>
                       <h2 className="text-gray-900 text-[15px] sm:text-lg  title-font font-medium">
                         CRM Software
@@ -189,11 +181,7 @@ function Blog() {
               <div className="border border-gray-200 p-6 hover:bg-gray-100  rounded-lg">
                 <div className="flex items-center sm:justify-between gap-8">
                   <span className="flex  items-center gap-5">
-                    <img
-                      className="w-12 sm:w-16"
-                      src="/public/Avatar.svg"
-                      alt=""
-                    />
+                    <img className="w-12 sm:w-16" src={Avar} alt="" />
                     <span>
                       <h2 className="text-gray-900 text-[15px] sm:text-lg  title-font font-medium">
                         CRM Software
@@ -217,11 +205,7 @@ function Blog() {
               <div className="border border-gray-200 p-6 hover:bg-gray-100  rounded-lg">
                 <div className="flex items-center sm:justify-between gap-8">
                   <span className="flex  items-center gap-5">
-                    <img
-                      className="w-12 sm:w-16"
-                      src="/public/Avatar.svg"
-                      alt=""
-                    />
+                    <img className="w-12 sm:w-16" src={Avar} alt="" />
                     <span>
                       <h2 className="text-gray-900 text-[15px] sm:text-lg  title-font font-medium">
                         CRM Software
@@ -245,11 +229,7 @@ function Blog() {
               <div className="border border-gray-200 p-6 hover:bg-gray-100  rounded-lg">
                 <div className="flex items-center sm:justify-between gap-8">
                   <span className="flex  items-center gap-5">
-                    <img
-                      className="w-12 sm:w-16"
-                      src="/public/Avatar.svg"
-                      alt=""
-                    />
+                    <img className="w-12 sm:w-16" src={Avar} alt="" />
                     <span>
                       <h2 className="text-gray-900 text-[15px] sm:text-lg  title-font font-medium">
                         CRM Software
@@ -273,11 +253,7 @@ function Blog() {
               <div className="border border-gray-200 p-6 hover:bg-gray-100  rounded-lg">
                 <div className="flex items-center sm:justify-between gap-8">
                   <span className="flex  items-center gap-5">
-                    <img
-                      className="w-12 sm:w-16"
-                      src="/public/Avatar.svg"
-                      alt=""
-                    />
+                    <img className="w-12 sm:w-16" src={Avar} alt="" />
                     <span>
                       <h2 className="text-gray-900 text-[15px] sm:text-lg  title-font font-medium">
                         CRM Software
@@ -318,11 +294,7 @@ function Blog() {
             </div>
           </div>
           <div className="lg:w-1/2 sm:w-1/3 rounded-lg overflow-hidden mt-6 sm:mt-0">
-            <img
-              className="object-cover object-center "
-              src="/public/10_2.png"
-              alt=""
-            />
+            <img className="object-cover object-center " src={Erre} alt="" />
           </div>
         </div>
       </section>

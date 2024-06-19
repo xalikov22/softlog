@@ -1,5 +1,6 @@
 import React from "react";
 import { IoMdAdd } from "react-icons/io";
+import Stars from "../assets/ddd.png";
 function Feature() {
   return (
     <div>
@@ -82,11 +83,7 @@ function Feature() {
               </div>
             </div>
             <div className="lg:w-1/2 sm:w-1/3 rounded-lg overflow-hidden mt-6 sm:mt-0">
-              <img
-                className="object-cover object-center "
-                src="/public/ddd.png"
-                alt=""
-              />
+              <img className="object-cover object-center " src={Stars} alt="" />
             </div>
           </div>
         </section>

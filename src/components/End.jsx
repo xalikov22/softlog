@@ -1,5 +1,7 @@
 import React from "react";
-
+import One from "../assets/1_1.png";
+import Two from "../assets/two.jpg";
+import Lupa from "../assets/10_2.png";
 function End() {
   return (
     <div>
@@ -18,7 +20,7 @@ function End() {
               <div className="h-full flex border-2 border-gray-200 hover:bg-gray-100 rounded-xl sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                 <div className="flex-grow sm:pl-8">
                   <span className="flex gap-2 pl-5  pt-10 font-semibold text-[14px] leading-4 font-sans items-center">
-                    <img src="/public/Ellipse 14.jpg" alt="" />
+                    <img src={Two} alt="" />
                     <p className="title-font font-medium text-[12px] text-gray-900">
                       Jackie Colburn
                     </p>
@@ -42,7 +44,7 @@ function End() {
                 </div>
                 <img
                   className="flex-shrink-0 rounded-lg w-48 hidden  sm:flex h-48 object-cover object-center sm:mb-0 mb-4"
-                  src="/public/1_1.png"
+                  src={One}
                   alt=""
                 />
               </div>
@@ -51,7 +53,7 @@ function End() {
               <div className="h-full flex border-2 border-gray-200 hover:bg-gray-100 rounded-xl sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                 <div className="flex-grow sm:pl-8">
                   <span className="flex gap-2 pl-5  pt-10 font-semibold text-[14px] leading-4 font-sans items-center">
-                    <img src="/public/Ellipse 14.jpg" alt="" />
+                    <img src={Two} alt="" />
                     <p className="title-font font-medium text-[12px] text-gray-900">
                       Jackie Colburn
                     </p>
@@ -75,7 +77,7 @@ function End() {
                 </div>
                 <img
                   className="flex-shrink-0 rounded-lg w-48 hidden  sm:flex h-48 object-cover object-center sm:mb-0 mb-4"
-                  src="/public/1_1.png"
+                  src={One}
                   alt=""
                 />
               </div>
@@ -84,7 +86,7 @@ function End() {
               <div className="h-full flex border-2 border-gray-200 hover:bg-gray-100 rounded-xl sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                 <div className="flex-grow sm:pl-8">
                   <span className="flex gap-2 pl-5  pt-10 font-semibold text-[14px] leading-4 font-sans items-center">
-                    <img src="/public/Ellipse 14.jpg" alt="" />
+                    <img src={Two} alt="" />
                     <p className="title-font font-medium text-[12px] text-gray-900">
                       Jackie Colburn
                     </p>
@@ -108,7 +110,7 @@ function End() {
                 </div>
                 <img
                   className="flex-shrink-0 rounded-lg w-48 hidden  sm:flex h-48 object-cover object-center sm:mb-0 mb-4"
-                  src="/public/1_1.png"
+                  src={One}
                   alt=""
                 />
               </div>
@@ -117,7 +119,7 @@ function End() {
               <div className="h-full flex border-2 border-gray-200 hover:bg-gray-100 rounded-xl sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                 <div className="flex-grow sm:pl-8">
                   <span className="flex gap-2 pl-5  pt-10 font-semibold text-[14px] leading-4 font-sans items-center">
-                    <img src="/public/Ellipse 14.jpg" alt="" />
+                    <img src={Two} alt="" />
                     <p className="title-font font-medium text-[12px] text-gray-900">
                       Jackie Colburn
                     </p>
@@ -141,7 +143,7 @@ function End() {
                 </div>
                 <img
                   className="flex-shrink-0 rounded-lg w-48 hidden  sm:flex h-48 object-cover object-center sm:mb-0 mb-4"
-                  src="/public/1_1.png"
+                  src={One}
                   alt=""
                 />
               </div>
@@ -168,11 +170,7 @@ function End() {
             </div>
           </div>
           <div className="lg:w-1/2 sm:w-1/3 rounded-lg overflow-hidden mt-6 sm:mt-0">
-            <img
-              className="object-cover object-center "
-              src="/public/10_2.png"
-              alt=""
-            />
+            <img className="object-cover object-center " src={Lupa} alt="" />
           </div>
         </div>
       </section>
