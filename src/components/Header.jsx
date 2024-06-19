@@ -2,7 +2,6 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { FaStar } from "react-icons/fa6";
 import HeroInfo from "./HeroInfo";
-import Avat from "../assets/Avatar.svg";
 
 function Header() {
   const [records, setRecords] = useState([]);
@@ -54,7 +53,11 @@ function Header() {
                       <div className="flex-grow p-6">
                         <span className="flex justify-between items-center">
                           <div className="h-12 flex-shrink-0 flex flex-col text-center leading-none">
-                            <img src={Avat} alt="Avatar" className="h-full" />
+                            <img
+                              src="/public/Avatar.svg"
+                              alt="Avatar"
+                              className="h-full"
+                            />
                           </div>
                           <h1 className="text-xl sm:pr-[90px] font-medium text-gray-900 mb-3">
                             {item.title}
