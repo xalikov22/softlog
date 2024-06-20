@@ -54,7 +54,7 @@ function Blog() {
                       <div className="flex items-center justify-between mb-3">
                         <div className="h-6 gap-3 flex-shrink-0 flex items-center text-center leading-none">
                           <img
-                            src="/public/two.png"
+                            src="/public/two.jpg"
                             alt="Avatar"
                             className="h-full"
                           />
